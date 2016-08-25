@@ -29,7 +29,7 @@
         },
         "sourceImageVhdUri": {
         "type": "string",
-        "defaultValue": "https://st123098.blob.core.windows.net/image/training-osDisk.daf45898-6920-4bb7-b642-686dfa32c06a.vhd",
+        "defaultValue": "XXX",
         "metadata": {
         "description": "Uri of the your user image"
           }
@@ -82,7 +82,7 @@
     },
     "variables": {
         "storageAccountType": "Standard_LRS",
-        "storageAccountName":"st123098",
+        "storageAccountName":"xxxx",
         "availabilitySetName": "WebAvSet",
         "addressPrefix": "10.6.0.0/16",
         "subnetName": "Web-Subnet",
