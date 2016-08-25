@@ -1,0 +1,21 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "feladmin"
+    },
+    "osType": {
+      "value": "Windows"
+    },
+      "adminPassword": {
+      "value": "!Password123"
+    },
+    "sourceImageVhdUri": {
+      "value": "https://st123098.blob.core.windows.net/image/training-osDisk.daf45898-6920-4bb7-b642-686dfa32c06a.vhd",
+     },
+        "dnsNameforLBIP": {
+            "value": "trainingtest"
+        }
+    }
+}
