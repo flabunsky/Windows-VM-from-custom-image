@@ -142,7 +142,7 @@
     },
     {
       "type": "Microsoft.Network/networkSecurityGroups",
-      "name": "vmsql",
+      "name": "vmNSG",
       "apiVersion": "2016-07-01",
       "location": "[resourceGroup().location]",
       "properties": {
